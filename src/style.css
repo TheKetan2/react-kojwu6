@@ -1,3 +1,15 @@
-h1, p {
-  font-family: Lato;
+body {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  background-color: rgba(21, 21, 21, 1);
 }
+input,
+button {
+  border-width: 0px;
+  padding: 10px;
+  outline: 5px;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+
